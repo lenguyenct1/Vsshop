@@ -161,7 +161,7 @@
 
 				//Recipients
 				$mail->setFrom('socquayct@gmail.com', 'Mail Liên hệ');
-				$mail->addAddress('socquayct@gmail.com');               // Add a recipient
+				$mail->addAddress($email);               // Add a recipient
 				//$mail->addReplyTo($email);
 				// $mail->addCC('cc@example.com');
 				// $mail->addBCC('bcc@example.com');

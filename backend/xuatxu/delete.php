@@ -5,7 +5,6 @@
 	$sql = <<<EOT
 	DELETE FROM `xuatxu` WHERE xx_id= $id
 	EOT;
-	echo $sql ; die;
 	$result = mysqli_query($conn, $sql);
 	echo '<script>
 			location.href="index.php";
